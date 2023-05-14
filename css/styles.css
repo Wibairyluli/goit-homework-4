@@ -319,7 +319,7 @@ body {
 /* selection4 */
 .position-team {margin-bottom: 8px;}
 .div-text {padding-top: 32px; padding-bottom: 32px;}
-.team-div{padding-top: 32px; padding-bottom: 32px;}
+.team-div {padding-top: 32px; padding-bottom: 32px;}
 .team {
   background-color: var(--background-btn-filters);
 }
@@ -493,11 +493,11 @@ body {
   display: flex;
   align-items: baseline;}
 
-.foter-main{
+.foter-main {
   margin-right: 120px;}
 .social-list-link {display: flex; gap: 16px;}
 
-.social-link-icon {display: flex;
+.social-link-icon {
 fill: #F4F4FD;
 background-color:#4D5AE5 ;
 border-radius: 50%;
@@ -505,6 +505,7 @@ width: 40px;
 height: 40px;
 align-items: center;
 justify-content: center;
+display: flex;
 }
 .social-link-icon:hover,
 .social-link-icon:focus {background-color: #31D0AA;}
