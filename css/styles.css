@@ -187,8 +187,8 @@ body {
   padding-bottom: 188px;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)) url("../images/people-office\.jpg");
-   background-size: cover;
+    rgba(46, 47, 66, 0.7)),url("../images/people-office\.jpg");
+  background-size: cover;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -505,7 +505,6 @@ width: 40px;
 height: 40px;
 align-items: center;
 justify-content: center;
-display: flex
 }
 .social-link-icon:hover,
 .social-link-icon:focus {background-color: #31D0AA;}
